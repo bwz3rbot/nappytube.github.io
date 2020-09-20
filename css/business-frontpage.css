@@ -1,0 +1,70 @@
+/*!
+ * Start Bootstrap - Business Frontpage (https://startbootstrap.com/templates/business-frontpage)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+
+
+:root {
+  --light-blue: rgb(31, 210, 228) 10%;
+  --light-blue2: rgb(31, 210, 228);
+  --powder-blue: rgb(166, 247, 255) 20%;
+  --smoke-purps: rgb(163, 144, 255) 39%;
+  --smoke-purps2: rgb(163, 144, 255);
+  --valentine-red: rgb(238, 40, 175) 43%;
+  --legally-blonde: rgb(246, 86, 195) 70%;
+}
+
+body {
+  padding-top: 56px;
+}
+
+html, body {
+  background-color: whitesmoke;
+}
+
+a, #discord_link {
+  color: var(--smoke-purps2);
+}
+a:hover, #discord_link:hover {
+ color: var(--light-blue2);
+ text-decoration: none;
+}
+
+.navbar-dark,
+.bg-black {
+  background-color: black;
+
+}
+
+/* .power {
+  color: rgba(255, 255, 0, 0.705);
+} */
+
+.power {
+  /* background: -webkit-linear-gradient(circle at 45%, var(--light-blue),var(--smoke-purps),var(--valentine-red)); */
+  background: radial-gradient(circle at 50%, var(--light-blue),var(--smoke-purps),var(--valentine-red));
+  /* background: -webkit-linear-gradient(var(--light-blue),var(--powder-blue),var(--smoke-purps),var(--valentine-red),var(--legally-blonde)); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.code {
+  background-color: #454d55;
+  padding: 1px 5px;
+  border-radius: 3px;
+  color: #fff;;
+}
+
+#discord_span {
+  position: static;
+}
+
+#copy_discord_link {
+  position: absolute;
+  padding-top: .7rem;
+}
+
+#nappyBanner {
+  max-width: 1000px;
+}

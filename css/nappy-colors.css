@@ -1,0 +1,10 @@
+background-image: linear-gradient(top, rgb(31,210,228) 0%, rgb(166,247,
+    255) 0%, rgb(166,246,255) 0%, rgb(163,144,255) 19%, rgb(238,40,175) 33%,
+     rgb(246,86,195) 100%);
+background-image: -moz-linear-gradient(center top, rgb(31,210,228) 0%,rgb(166,
+    247,255) 0%,rgb(166,246,255) 0%,rgb(163,144,255) 19%,rgb(238,40,175) 33%,
+    rgb(246,86,195) 100%);
+background-image: -webkit-gradient(linear, left top, left bottom,
+     color-stop(0.000, rgb(31,210,228)),color-stop(0.000, rgb(166,247,255)),
+    color-stop(0.000, rgb(166,246,255)),color-stop(0.194, rgb(163,144,255)),
+    color-stop(0.332, rgb(238,40,175)),color-stop(1.000, rgb(246,86,195)));

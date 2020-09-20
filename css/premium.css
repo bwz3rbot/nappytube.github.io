@@ -1,0 +1,11 @@
+/* <td><i class="fas fa-check-circle"></i></td>
+<td><i class="fas fa-times-circle"></i></td> */
+
+.fa-check-circle {
+    color: rgb(31,210,228);
+
+}
+
+.fa-times-circle {
+    color: rgb(246,86,195);
+}
